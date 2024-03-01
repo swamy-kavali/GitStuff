@@ -1,0 +1,13 @@
+public class swapping{
+
+public static void main(String args[]){
+
+int a = 20;
+int b = 30;
+temp t = a;
+b=a;
+a= temp;
+system.out.println(a+""+b+)
+
+}
+  }

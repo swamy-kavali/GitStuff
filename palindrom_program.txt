@@ -1,0 +1,28 @@
+public classs swamy{
+
+public static void main(string args[]){
+
+Scannar sc = new Scanner(System.in);
+int num =  sc.nextInt();
+system.out.println("enter the number");
+int revnum = 0;
+int Onum = num;
+while(num!=0){
+
+int rem = num%10;
+revnum = revnum*10+rem;
+num = num/10;
+if(Onum == revnum){
+
+system.out.println(Onum+"is a palindrom num")
+}
+else{
+
+system.out.println(Onum+"is not a palindrom num")
+}
+
+}
+
+}
+
+}
